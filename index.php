@@ -111,6 +111,7 @@ $files = array_merge(glob('./inputs/*.gcode'),glob('./inputs/*.g'));
                 </div>
             </div>
         </div>
+        <a href="output.txt" class="btn btn-primary"><span class="glyphicon glyphicon-download-alt"></span> Download Output</a>
         <div id="result-stats">
         </div>
         <div class="colours-explained">
