@@ -105,12 +105,12 @@ $files = array_merge(glob('./inputs/*.gcode'),glob('./inputs/*.g'));
                             <div class="form-group">
                                 <div class="col-sm-10 col-sm-offset-2">
                                     <button type="submit" class="btn btn-primary">Submit</button>
+                                    <a href="output.gcode" class="btn btn-primary"><span class="glyphicon glyphicon-download-alt"></span> Download Output</a>
                                 </div>
                             </div>
                     </form>
                 </div>
             </div>
-            <a href="output.gcode" class="btn btn-primary"><span class="glyphicon glyphicon-download-alt"></span> Download Output</a>
         </div>
         <div id="result-stats">
         </div>
